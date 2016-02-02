@@ -1735,7 +1735,7 @@ float: left;
 
 
 .col-md-6 {
-  width: 50%;
+  width: 100%;
 }
 
 
@@ -1762,7 +1762,7 @@ float: left;
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
-.open-nav .mobile-toggle {
+/*.open-nav .mobile-toggle {
 	transform: rotate(-90deg);
 	-webkit-transform: rotate(-90deg);
 	-webkit-transition: all .4s ease-in-out;
@@ -1770,12 +1770,12 @@ float: left;
 	-ms-transition: all .4s ease-in-out;
 	-o-transition: all .4s ease-in-out;
 	transition: all .4s ease-in-out;
-}
+}*/
 .mobile-toggle {
 	cursor: pointer;
 	font-size: 20px;
 	position: fixed;
-	right: 20px;
+	right: 120px;
 	top:25px;
 	width: 40px;
 	z-index: 100000;
@@ -1789,7 +1789,7 @@ float: left;
 	width: 40px;
 	height: 4px;
 	margin-bottom: 6px;
-	  background-color: rgba(0, 0, 0, 0.54);
+	background-color: rgba(255, 255, 255, 1);
   border-radius: 20px;
 	display: block;
 	-webkit-transition: all .8s ease-in-out;
@@ -1815,7 +1815,7 @@ float: left;
 	transition: all .8s ease-in-out;
 }
 .menu-panel {
-	width: 66%;
+	width: 500px;
 	position: fixed;
 	top: 0;
 	right: 3000px;
@@ -2502,7 +2502,7 @@ h2.date-header,span.blog-admin{display:none!important;}
 				font-family: Raleway;
 			}
 		.menu-panel {
-  background-image: url(http://2.bp.blogspot.com/-5-3kv47VXfw/U_cLxZ00kiI/AAAAAAAABX4/mvfVq-UKoys/s1600/bg31.jpg);
+  background: rgba(0,0,0,0.3);
 }
 		
 </style>
@@ -2647,90 +2647,24 @@ var _0xffa4=["\x6E\x20\x31\x79\x28\x79\x29\x7B\x71\x28\x34\x20\x69\x3D\x30\x3B\x
       }());
       //]]>
     </script>
-<!--
+
 <div class='main-nav visible-lg white-bg'>
 		<div class='mobile-toggle'>
-		    <span/>
-		    <span/>
-		    <span/>
+          <img src='https://4.bp.blogspot.com/-19_UtKX6C0c/VpfC2BA5J3I/AAAAAAAAAC4/qdXJhjRQwUE/s1600/calendar2.png'/>
 		</div>
 	</div>
--->	
+
+
+
 <section class='menu-panel fullheight'>
     <div class='row'>
-
         <article class='col-md-6 fullheight'>
-            <div class='valign text-center slogan-holder'>
-
-
-
-
-                <div class='nav-logo-wrap'>
-
-                    <a expr:href='data:blog.homepageUrl'>
-                        <img alt='Expose' src='http://3.bp.blogspot.com/-j3B7x-svlmQ/VQBgtuWGbHI/AAAAAAAAET0/4laleknKb8k/s1600/mylogo2.png'/>
-                    </a>
-
-                    <div class='slogan-wrap'>
-                        <h3 class='white font3 slogan-text'>A Timeline Design For Your Blog</h3>
-                    </div>
-
-                </div>
+           <div class='valign text-center slogan-holder'>
+              <iframe frameborder='0' height='500' scrolling='no' src='https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=500&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=aleksmalaya%40gmail.com&amp;color=%231B887A&amp;ctz=Europe%2FKiev' style='border-width:0' width='500'/>
             </div>
         </article>
-
-        <article class='col-md-6 fullheight nav-list-holder white-bg'>
-            <div class='valign'>
-
-                <nav class='nav-item-wrap'>
-                    <ul class='main-nav-menu main-nav-menu-effect' id='menu-menu-1'>
-                        <li><a expr:href='data:blog.homepageUrl'>Home</a></li>
-                        <li><a href='http://readbookclub.blogspot.com/p/blog-page.html'>О нас</a></li>
-                    </ul>
-                </nav>
-
-
-                <div class='copy-credits'>
-                    <ul class='nav-social'>
-                        <li>
-                            <a href='#' target='_blank'>
-                                <i class='fa fa-dribbble'/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href='#' target='_blank'>
-                                <i class='fa fa-twitter'/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href='#' target='_blank'>
-                                <i class='fa fa-facebook'/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href='#' target='_blank'>
-                                <i class='fa fa-vine'/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href='#' target='_blank'>
-                                <i class='fa fa-vimeo-square'/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href='#' target='_blank'>
-                                <i class='fa fa-github'/>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </article>
-
     </div>
 </section>
-
-
 
 <div class='header-wrapper'>
 <div id='logo'>        
@@ -2926,7 +2860,8 @@ var _0xffa4=["\x6E\x20\x31\x79\x28\x79\x29\x7B\x71\x28\x34\x20\x69\x3D\x30\x3B\x
     <a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &quot;_backlinks-create-link&quot;' target='_blank'><data:post.createLinkLabel/></a>
   </p>
 </b:includable>
-                        <b:includable id='comment-form' var='post'>
+                        <b:includable id='comment-form' var='post'>                          
+                          <!-- FB Comments -->           
   <div class='comment-form'>
     <a name='comment-form'/>
     <b:if cond='data:mobile'>
@@ -3826,6 +3761,44 @@ var x=&quot;<data:post.title/>&quot;,y=&quot;<data:post.url/>&quot;,z=&quot;<dat
 
 <div class='sidebar-wrapper'>
 <b:section class='sidebar' id='sidebar' showaddelement='yes'>
+  <b:widget id='Label2' locked='false' title='Метки' type='Label'>
+    <b:includable id='main'>
+  <b:if cond='data:title'>
+    <h2><data:title/></h2>
+  </b:if>
+  <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
+    <b:if cond='data:display == &quot;list&quot;'>
+      <ul>
+      <b:loop values='data:labels' var='label'>
+        <li>
+          <b:if cond='data:blog.url == data:label.url'>
+            <a expr:dir='data:blog.languageDirection'><data:label.name/></a>
+          <b:else/>
+            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+          </b:if>
+          <b:if cond='data:showFreqNumbers'>
+            <span dir='ltr'>(<data:label.count/>)</span>
+          </b:if>
+        </li>
+      </b:loop>
+      </ul>
+    <b:else/>
+      <b:loop values='data:labels' var='label'>
+        <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
+          <b:if cond='data:blog.url == data:label.url'>
+            <a expr:dir='data:blog.languageDirection'><data:label.name/></a>
+          <b:else/>
+            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+          </b:if>
+          <b:if cond='data:showFreqNumbers'>
+            <span class='label-count' dir='ltr'>(<data:label.count/>)</span>
+          </b:if>
+        </span>
+      </b:loop>
+    </b:if>
+  </div>
+</b:includable>
+  </b:widget>
   <b:widget id='PopularPosts2' locked='false' title='Популярные сообщения' type='PopularPosts'>
     <b:includable id='main'>
   <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
@@ -3863,44 +3836,6 @@ var x=&quot;<data:post.title/>&quot;,y=&quot;<data:post.url/>&quot;,z=&quot;<dat
       </b:loop>
     </ul>
     <b:include name='quickedit'/>
-  </div>
-</b:includable>
-  </b:widget>
-  <b:widget id='Label2' locked='false' title='Метки' type='Label'>
-    <b:includable id='main'>
-  <b:if cond='data:title'>
-    <h2><data:title/></h2>
-  </b:if>
-  <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
-    <b:if cond='data:display == &quot;list&quot;'>
-      <ul>
-      <b:loop values='data:labels' var='label'>
-        <li>
-          <b:if cond='data:blog.url == data:label.url'>
-            <a expr:dir='data:blog.languageDirection'><data:label.name/></a>
-          <b:else/>
-            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
-          </b:if>
-          <b:if cond='data:showFreqNumbers'>
-            <span dir='ltr'>(<data:label.count/>)</span>
-          </b:if>
-        </li>
-      </b:loop>
-      </ul>
-    <b:else/>
-      <b:loop values='data:labels' var='label'>
-        <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
-          <b:if cond='data:blog.url == data:label.url'>
-            <a expr:dir='data:blog.languageDirection'><data:label.name/></a>
-          <b:else/>
-            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
-          </b:if>
-          <b:if cond='data:showFreqNumbers'>
-            <span class='label-count' dir='ltr'>(<data:label.count/>)</span>
-          </b:if>
-        </span>
-      </b:loop>
-    </b:if>
   </div>
 </b:includable>
   </b:widget>
@@ -3992,7 +3927,7 @@ head.appendChild(script);
 </b:section>
 
 <b:section class='footer' id='footer2' preferred='yes'>
-  <b:widget id='Text1' locked='false' title='Правильные слова' type='Text'>
+  <b:widget id='Text1' locked='false' title='Правильные мысли' type='Text'>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -4172,31 +4107,31 @@ jQuery(document).ready(function() {
 /*	NAVMENU INIT
 /*-----------------------------------------------------------------------------------*/ 
 jQuery(document).ready(function() {
-"use strict";
+"use strict";     
      
 	// Mobile Navigation
 	jQuery('.mobile-toggle').click(function() {
 		if (jQuery('.main-nav').hasClass('open-nav')) {
 			jQuery('.main-nav').removeClass('open-nav');
 			jQuery('.masthead').removeClass('revealed');
-			jQuery('.slogan-holder').slideUp(1000,function(){
-				jQuery('.menu-panel').stop().animate({
-					right: "3000px"
-				}, 2000);
-			});
+			jQuery('.menu-panel').stop().animate({
+				right: "3000px"
+			}, 1);
+      jQuery('.slogan-holder').slideUp(200);
 		} else {
 			jQuery('.main-nav').addClass('open-nav');
 			jQuery('.masthead').addClass('revealed');
+      jQuery('.slogan-holder').slideDown(200);
 			jQuery('.menu-panel').stop().animate({
 				right: "0px"
-			}, 1000, function(){
-				jQuery('.slogan-holder').slideDown(1000);
-			});
+			}, 1);
 		}
 	});
 	
 	
 });
+
+
 
 $(window).ready(function(){$('#back-to-top').click(function(e){e.preventDefault();$('html,body').animate({scrollTop:0},700).animate({scrollTop:60},300).animate({scrollTop:0},400);});})(jQuery);
 
